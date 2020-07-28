@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icono.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Space Land</title>
+</head>
+
+<body>
+
+    <!-- --------------------------------------- -->
+    <!-- VIDEOJUEGO NAVES,CRISTHIAN MAHECHA [^^] -->
+    <!-- --------------------------------------- -->
+
+    <!-- AUDIO INICIAR -->
+    <audio src="audio/FondoMsic.mp3" autoplay="autoplay" loop="loop"></audio>
+
+    <!-- PANEL DERECHA CONTROLES GUIA -->
+    <div class="Control">
+        <h1>Controles</h1>
+        <h2>Movimientos</h2>
+        <div class="Direccion">
+            <div class="A">
+                <p>A</p>
+            </div>
+            <div class="D">
+                <p>D</p>
+            </div>
+        </div>
+
+        <h2>Disparo</h2>
+        <div class="Direccion">
+            <div class="SPACE">
+                <p>SPACE</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CUADRO DE VIDEOJUEGO -->
+    <canvas id="My_Canvas" width="650px" height="650px"></canvas>
+
+    <!-- PRESIONAR P -->
+    <div class="IniciarGame">
+        <div>
+            <img src="img/Titulo.png" alt="">
+            <p>Presion P para Iniciar</p>
+        </div>
+    </div>
+
+    <!-- PANEL IZQUIERDA PUNTAJE -->
+    <div class="Control">
+        <h1>Puntaje</h1>
+        <div class="Puntaje">
+            <p id="Puntaje">0</p>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/FondoBody.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+canvas {
+    border: 20px solid rgb(68, 4, 80);
+    border-top: none;
+    border-bottom: none;
+    background-image: url(../img/FondoCamba.gif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.Control {
+    height: 100vh;
+    width: 100%;
+    padding: 15px 60px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+div.Direccion {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.A,
+div.D {
+    width: 35%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.Direccion p {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+
+div.SPACE {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.Puntaje {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 15px;
+    margin-top: 20px;
+}
+
+div.Puntaje p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* INICIAR GAME */
+
+div.IniciarGame {
+    width: 650px;
+    height: 650px;
+    /* background-color: rgb(19, 38, 144); */
+    background-image: url(../img/FondoInicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.IniciarGame p {
+    color: #ffffff;
+}
